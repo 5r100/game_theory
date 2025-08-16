@@ -1,8 +1,8 @@
 import random
 
 def both_random_fallow():
-    rdm_places_m1 = random.sample(list(range(1,10000)),250)
-    rdm_places_m2 = random.sample(list(range(1,10000)),250)
+    rdm_places_m1 = random.sample(list(range(1,1000)),25)
+    rdm_places_m2 = random.sample(list(range(1,1000)),50)
 
     m1_points = 0
     m2_points = 0
